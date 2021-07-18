@@ -42,8 +42,6 @@ export default function Contact() {
 
                             <ul className="contact-details">
                                 <li><i className="im im-icon-Phone-2"></i> <strong>Phone:</strong> <span>(123) 123-456 </span></li>
-                                <li><i className="im im-icon-Fax"></i> <strong>Fax:</strong> <span>(123) 123-456 </span></li>
-                                <li><i className="im im-icon-Globe"></i> <strong>Web:</strong> <span><a href="#">www.example.com</a></span></li>
                                 <li><i className="im im-icon-Envelope"></i> <strong>E-Mail:</strong> <span><a href="#">office@example.com</a></span></li>
                             </ul>
                         </div>

@@ -1,5 +1,8 @@
-export default function Navbar() {
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
+export default function Navbar() {
+    const router = useRouter();
     return (
         <>
             <header id="header-container">
@@ -7,7 +10,7 @@ export default function Navbar() {
                     <div className="container">
                         <div className="left-side">
                             <div id="logo">
-                                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                                <a href="index.html"><img src="/favicon.svg" alt="Favicon" /></a>
                             </div>
 
                             <div className="mmenu-trigger">
@@ -20,9 +23,9 @@ export default function Navbar() {
 
                             <nav id="navigation" className="style-1">
                                 <ul id="responsive">
-                                    <li><a className="current" href="/">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
+                                    <li><Link href="/"><a className={router.pathname === '/' ? 'current' : ''}>Home</a></Link></li>
+                                    <li><a className={router.pathname === '/about' ? 'current' : ''}>About Us</a></li>
+                                    <li><a className={router.pathname === '/services' ? 'current' : ''}>Services</a></li>
                                 </ul>
                             </nav>
                             <div className="clearfix"></div>
