@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+import Layout, { siteTitle } from '@components/layout';
 import Jumbotron from '@components/Jumbotron';
 
 export default function Home() {
