@@ -7,21 +7,21 @@ import BackToTop from './BackToTop'
 import VendorScripts from 'scripts'
 
 const name = 'Isah Ohieku'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Ovivi Ventures Limited'
 
 export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <title>Listeo</title>
+        <link rel="icon" href="/favicon.png" />
+        <title>Ovivi Ventures Limited</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
 
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="International procurement company"
         />
         <meta
           property="og:image"
@@ -29,9 +29,6 @@ export default function Layout({ children }) {
             siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
-
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/main-color.css" id="colors" />
       </Head>
 
       <div id="wrapper">

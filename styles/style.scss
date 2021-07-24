@@ -84,7 +84,7 @@
 ---------------------------------------------------------------------- */
 @import "./bootstrap-grid.scss";					/* Default Reset, Typography, Forms, Responsive Grid etc. */
 @import "./icons.scss";							/* Webfont Icons: FontAwesome, Line, Simple Line */
-// @import "./plugins/revolutionslider.css";	/* Revolution Slider Style Sheets */
+@import "./plugins/revolutionslider.css";	/* Revolution Slider Style Sheets */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:500,600,700');
 
@@ -2789,7 +2789,7 @@ body .alt-search-box .main-search-input-item .chosen-container-active.chosen-wit
 
 .slider-controls button.slide-m-next,
 .slider-controls button.slide-m-prev {
-	background-image:  url(../images/slider-arrow-grey.svg);
+	background-image:  url(../public/images/slider-arrow-grey.svg);
 	background-repeat: no-repeat;
 	background-size:  auto 100%;
 	background-position: 50%;
@@ -2797,7 +2797,7 @@ body .alt-search-box .main-search-input-item .chosen-container-active.chosen-wit
 
 .home-search-carousel .slider-controls button.slide-m-next,
 .home-search-carousel .slider-controls button.slide-m-prev {
-	background-image:  url(../images/slider-arrow.svg);
+	background-image:  url(../public/images/slider-arrow.svg);
 }
 
 .slider-controls button.slide-m-prev {
@@ -8786,7 +8786,7 @@ section.fullwidth .blog-post { margin: 5px 0 0 0; }
 	text-align: center;
 	border-radius: 50%;
 	background-color: #66676b;
-	background-image: url(../images/plus-icon.svg);
+	background-image: url(../public/images/plus-icon.svg);
 	background-repeat: no-repeat;
 	background-position: 50%
 }

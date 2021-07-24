@@ -23,9 +23,10 @@ export default function Navbar() {
 
                             <nav id="navigation" className="style-1">
                                 <ul id="responsive">
-                                    <li><Link href="/"><a className={router.pathname === '/' ? 'current' : ''}>Home</a></Link></li>
+                                    <li><a className={router.pathname === '/' ? 'current' : ''}>Home</a></li>
                                     <li><a className={router.pathname === '/about' ? 'current' : ''}>About Us</a></li>
                                     <li><a className={router.pathname === '/services' ? 'current' : ''}>Services</a></li>
+                                    <li><a className={router.pathname === '/careers' ? 'current' : ''}>Careers</a></li>
                                 </ul>
                             </nav>
                             <div className="clearfix"></div>

@@ -17,11 +17,25 @@ export default function VendorScripts() {
             <script type="text/javascript" src="/scripts/custom.js"></script>
 
             <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
-            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiDWRNXD28SNRErYSSp3hTiYES4VhdDa0&callback=singleListingMap"
-                async defer></script>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiDWRNXD28SNRErYSSp3hTiYES4VhdDa0&callback=singleListingMap"></script>
             <script type="text/javascript" src="/scripts/infobox.min.js"></script>
             <script type="text/javascript" src="/scripts/markerclusterer.js"></script>
             <script type="text/javascript" src="/scripts/maps.js"></script>
+
+
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.actions.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.carousel.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.kenburn.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.layeranimation.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.migration.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.navigation.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.parallax.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.slideanims.min.js"></script>
+            <script type="text/javascript" src="/scripts/extensions/revolution.extension.video.min.js"></script>
+            <script src="scripts/parallax.min.js"></script>
+
+            <script type="text/javascript" src="scripts/themepunch.tools.min.js"></script>
+            <script type="text/javascript" src="scripts/themepunch.revolution.min.js"></script>
         </>
     )
 }
