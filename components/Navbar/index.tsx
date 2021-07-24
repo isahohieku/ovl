@@ -23,10 +23,10 @@ export default function Navbar() {
 
                             <nav id="navigation" className="style-1">
                                 <ul id="responsive">
-                                    <li><a className={router.pathname === '/' ? 'current' : ''}>Home</a></li>
-                                    <li><a className={router.pathname === '/about' ? 'current' : ''}>About Us</a></li>
-                                    <li><a className={router.pathname === '/services' ? 'current' : ''}>Services</a></li>
-                                    <li><a className={router.pathname === '/careers' ? 'current' : ''}>Careers</a></li>
+                                    <li><a href="/" className={router.pathname === '/' ? 'current' : ''}>Home</a></li>
+                                    <li><a href="/about" className={router.pathname === '/about' ? 'current' : ''}>About Us</a></li>
+                                    <li><a href="/services" className={router.pathname === '/services' ? 'current' : ''}>Services</a></li>
+                                    <li><a href="/careers" className={router.pathname === '/careers' ? 'current' : ''}>Careers</a></li>
                                 </ul>
                             </nav>
                             <div className="clearfix"></div>

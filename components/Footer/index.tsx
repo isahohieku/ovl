@@ -1,3 +1,5 @@
+import { currentYear } from "@lib/date";
+
 export default function Footer(){
     return (
         <div id="footer" className="margin-top-55">
@@ -14,6 +16,7 @@ export default function Footer(){
                             <li><a href="/about">About Us</a></li>
                             <li><a href="/services">Services</a></li>
                             <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/careers">Careers</a></li>
                         </ul>
                         <div className="clearfix"></div>
                     </div>
@@ -34,7 +37,7 @@ export default function Footer(){
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="copyrights">&copy; 2021 Ovivi Ventures Limited. All Rights Reserved.</div>
+                        <div className="copyrights">&copy; {currentYear()} Ovivi Ventures Limited. All Rights Reserved.</div>
                     </div>
                 </div>
             </div>

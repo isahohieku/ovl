@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '@components/layout';
 
 export default function ErrorPage() {
     return (
-        <Layout>
+        <>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
@@ -28,7 +28,6 @@ export default function ErrorPage() {
                     </div>
                 </div>
             </div>
-        </Layout>
-
+        </>
     )
 }
