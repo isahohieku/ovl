@@ -1,12 +1,13 @@
 import { currentYear } from "@lib/date";
 
-export default function Footer(){
+export default function Footer() {
     return (
         <div id="footer" className="margin-top-55">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5 col-sm-6">
-                        <img className="footer-logo" src="/favicon.svg" alt="" />
+                        <div className="d-flex align-items-center"><img className="footer-logo" src="/favicon.svg" alt="" />
+                            <h3 className="margin-left-25">Ovivi Ventures Limited</h3></div>
                         <br />
                         <p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
                     </div>

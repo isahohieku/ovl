@@ -1,5 +1,4 @@
 export default function VendorScripts() {
-    const APIKey = process.env.NEXT_PUBLIC_MAP_API;
     return (
         <>
             <script type="text/javascript" src="/scripts/jquery-3.6.0.min.js"></script>
@@ -14,13 +13,8 @@ export default function VendorScripts() {
             <script type="text/javascript" src="/scripts/jquery-ui.min.js"></script>
             <script type="text/javascript" src="/scripts/tooltips.min.js"></script>
             <script type="text/javascript" src="/scripts/custom.js"></script>
-
-            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
-            <script type="text/javascript" src={`https://maps.googleapis.com/maps/api/js?key=${APIKey}&callback=singleListingMap`}></script>
             <script type="text/javascript" src="/scripts/infobox.min.js"></script>
             <script type="text/javascript" src="/scripts/markerclusterer.js"></script>
-            <script type="text/javascript" src="/scripts/maps.js"></script>
-
 
             <script type="text/javascript" src="/scripts/extensions/revolution.extension.actions.min.js"></script>
             <script type="text/javascript" src="/scripts/extensions/revolution.extension.carousel.min.js"></script>

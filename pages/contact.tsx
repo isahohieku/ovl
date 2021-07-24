@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '@components/layout';
 
 export default function Contact() {
+    const APIKey = process.env.NEXT_PUBLIC_MAP_API;
+
     return (
         <Layout>
             <Head>
@@ -86,8 +88,14 @@ export default function Contact() {
                     </div>
 
                 </div>
-
             </div>
+
+            <script
+                type="text/javascript"
+                src={`https://maps.googleapis.com/maps/api/js?key=${APIKey}&callback=singleListingMap`}
+                async defer></script>
+            <script type="text/javascript" src="/scripts/maps.js" async defer></script>
+
         </Layout>
     )
 }
